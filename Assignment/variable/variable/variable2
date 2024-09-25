@@ -1,0 +1,9 @@
+var greeting = "Hello"; // Declared with var
+console.log(greeting); // Output: Hello
+
+if (true) {
+  var greeting = "whatsup"; // Same variable, but in a different block
+  console.log(greeting); // Output: Hi
+}
+
+console.log(greeting); // Output: Hi (var is function-scoped, not block-scoped)

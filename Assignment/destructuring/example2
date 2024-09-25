@@ -1,0 +1,7 @@
+const fruits = ["apple", "banana", "cherry"];
+
+// Destructuring the array
+const [firstFruit, secondFruit] = fruits;
+
+console.log(firstFruit);  // Output: apple
+console.log(secondFruit);  // Output: banana

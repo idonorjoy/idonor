@@ -1,0 +1,11 @@
+//using let and const
+let counter = 0; // Using let to allow modification
+const maxCount = 10; // Using const as maxCount should not change
+
+while (counter < maxCount) {
+  console.log(`Current count: ${counter}`);
+  counter++; // Incrementing the counter
+}
+
+// Uncommenting the next line would cause an error, as maxCount cannot be reassigned
+// maxCount = 20; // Error: Assignment to constant variable

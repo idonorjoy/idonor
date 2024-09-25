@@ -1,0 +1,12 @@
+const person = {
+  name: "idonor",
+  age: 18,
+  city: "canada"
+};
+
+// Destructuring the object
+const { name, age, city } = person;
+
+console.log(name); // Output: idonor
+console.log(age);  // Output: 18
+console.log(city); // Output: canada

@@ -1,0 +1,13 @@
+class food {
+    constructor(make, model) {
+      this.make = make;
+      this.model = model;
+    }
+  
+    getDetails() {
+      return `food: ${this.make} ${this.model}`;
+    }
+  }
+  
+  const myfood = new food('rice', 'beans');
+  console.log(myfood.getDetails()); // Output: Car: Toyota Corolla
